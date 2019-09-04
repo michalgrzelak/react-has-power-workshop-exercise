@@ -1,33 +1,28 @@
-.App {
-  text-align: center;
+p {
+  margin-bottom: 1rem;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.counter {
+  padding: 10px;
+}
+.counter .counter-controls {
+  display: inline-block;
+  margin-left: 10px;
+}
+.counter .counter-controls button {
+  margin-right: 4px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ol.instructions {
+  list-style-type: decimal;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
 }
-
-.App-link {
-  color: #61dafb;
+ol.instructions li {
+  margin-bottom: 1rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ol.instructions li ol {
+  margin-top: 0.5rem;
+  margin-left: 2.5rem;
+  list-style-type: decimal;
 }
